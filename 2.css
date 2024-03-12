@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-image: url('5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500vh;
+}
+
+#data-container { 
+    padding: 20px; 
+    max-width: 900px;
+    margin: auto; /* Center the container horizontally */
+    border: 2px solid;
+    background-image:url('4.jpeg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Distribute into four columns */
+    gap: 10px; /* Add gap between items */
+    clip-path: circle(70% at center); /* Create a circle shape */
+    
+}
+
+h1{
+    text-align:center;
+    background-color: rgb(191, 171, 218);
+    padding: 2px; 
+    max-width: 700px;
+    margin: auto; /* Center the container horizontally */
+    border: 2px solid;
+
+}
+
